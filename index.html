@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js?v=1" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Responsive Photo Gallery</h1>
+    <div class="actions">
+      <button id="modeBtn" type="button">Toggle Dark Mode</button>
+      <button id="favBtn" type="button">Show Favorites Only: Off</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="gallery" class="gallery" aria-live="polite"></section>
+    <noscript class="noscript">Enable JavaScript to see the gallery.</noscript>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built with CSS Grid and vanilla JS (loops, arrays, conditionals, functions).</p>
+  </footer>
+</body>
+</html>
