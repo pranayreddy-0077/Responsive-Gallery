@@ -1,12 +1,12 @@
 const images = [
-  { url: "img/deadpool1.png", caption: "Deadpool & Spidey",        favorite: true  },
-  { url: "img/deadpool2.png", caption: "Wolverine Rage",           favorite: false },
-  { url: "img/deadpool3.png", caption: "Classic Deadpool Pose",    favorite: true  },
-  { url: "img/deadpool4.png", caption: "On the Bridge",            favorite: false },
-  { url: "img/deadpool5.png", caption: "Scooter Pool",             favorite: false },
-  { url: "img/deadpool6.png", caption: "Dual Pistols",             favorite: true  },
-  { url: "img/deadpool7.png", caption: "Bullet Time",              favorite: false },
-  { url: "img/deadpool8.png", caption: "Hero Shot",                favorite: true  }
+  { url: "deadpool1.png", caption: "Deadpool & Spidey",        favorite: true  },
+  { url: "deadpool2.png", caption: "Wolverine Rage",           favorite: false },
+  { url: "deadpool3.png", caption: "Classic Deadpool Pose",    favorite: true  },
+  { url: "deadpool4.png", caption: "On the Bridge",            favorite: false },
+  { url: "deadpool5.png", caption: "Scooter Pool",             favorite: false },
+  { url: "deadpool6.png", caption: "Dual Pistols",             favorite: true  },
+  { url: "deadpool7.png", caption: "Bullet Time",              favorite: false },
+  { url: "deadpool8.png", caption: "Hero Shot",                favorite: true  }
 ];
 
 const galleryEl = document.getElementById("gallery");
